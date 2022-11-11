@@ -1,0 +1,91 @@
+.flex{
+     display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      margin: 1rem
+}
+section{
+        min-height: 100vh;
+        padding: 1rem;
+}
+.contenido{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+.contenido2{
+        text-align: center;
+        margin: 0 4rem;
+        max-width: 400px;
+        display: flex;
+        flex-flow: wrap column;
+}
+/*.container2 .caja{
+        width: 300px;
+}*/
+h3{
+        margin: 0;
+        font-size: 1.8rem;
+         font-family: 'Concert One';
+}
+button{
+        font-size: 1.2rem;
+        background-color: #6DB193;
+        border: none;
+        padding: 0.1rem 0.2rem;
+        border-radius: 0.3rem;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 9px #999;
+        margin: 1rem;
+}
+
+button:active{
+        background-color: #295F4E;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+.caja{
+        margin: 1rem 3rem;
+        background-color: #595959;
+        min-height: 220px;
+        border-radius: 1rem;
+        padding: 1rem 0;
+}
+#items{
+        display: flex;
+        flex-flow: row wrap;
+        width: 70%;
+        margin-top: 0;
+        margin: auto;
+        min-height: 70px;
+        /*display: inherit;*/
+        height: inherit;
+        background-color: #323232;
+        border-radius: 1rem;
+}
+.item{
+        display: inline-block;
+        text-align: center;
+        margin: 0.2rem 0.8rem;
+        font-size: 1.3rem;
+        font-family: 'Shadows Into Light Two';
+        background-color: #f18632;
+        padding: 0 0.3rem;
+        border-radius: 0.5rem;
+        cursor: move;
+} 
+
+.correct{
+        background-color: green;
+} 
+
+.incorrect{
+        background-color: red;
+}
+
+.active{
+        background-color: #77df70;
+}
+

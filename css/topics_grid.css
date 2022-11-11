@@ -1,0 +1,171 @@
+html {
+    font-size: min(1vw, 13.66px);
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+     scroll-padding-top: 50px;
+}
+@media (max-width: 499px) {
+	        /*.temas{
+				grid-template-rows: 32px 30px 40px 30px 50px 112px 4px 53px 37px 112px 4px 14px 39px 88px;
+				grid-template-columns: 5px 45px 35px 15px 80px 15px 41px 39px 5px;
+			}*/
+            .temas{
+                grid-template-rows: 0px 0px 0px 0px 0px 112px 4px 53px 37px 112px 4px 14px 39px 88px;
+                grid-template-columns: 5px 45px 35px 15px 80px 15px 41px 39px 5px;
+            }
+	        #estante1{
+				grid-area: 7 / 1 / 9 / 10;
+			}
+			#estante2{
+				grid-area: 11 / 1 / 14 / 10;
+			}
+			#papeles{
+				grid-area: 12 / 3 / 15 / 8;
+			}
+			#libro1{
+				grid-area: 6 / 2 / 7 / 4;
+			}
+			#libro2{
+				grid-area: 6 / 5 / 7 / 6;
+			}
+			#libro3{
+				grid-area: 6 / 7 / 7 / 10;
+			}
+			#libro4{
+				grid-area: 10 / 2 / 11 / 4;
+			}
+			#libro5{
+				grid-area: 10 / 5 / 11 / 6;
+			}
+			#libro6{
+				grid-area: 10 / 7 / 11 / 10;
+			}
+			#inicio{
+				grid-area: 2 / 5 / 3 / 6;
+			}
+			#activities{
+				grid-area: 4 / 5 / 5 / 6;
+			}
+			#mesa,#imagenpc,#monitor,#maceta,#maceta2,#maceta3,#maceta4,#atrapasueño,#libros{
+				display: none;
+			}
+}
+
+@media (min-width: 500px) and (max-width: 899px){
+	#mesa,#imagenpc,#monitor,#papeles,#maceta,#atrapasueño,#libros{
+				display: none;
+			}
+			#inicio{
+				grid-area: 1 / 7 / 2 / 12;
+			}
+			#activities{
+				grid-area: 1 / 14 / 1 / 18;
+			}
+			#maceta4 {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0.25176048 * 12.40291066rem) + 0%), calc(100% - (0% + 0%)) calc((0.25176048 * 12.40291066rem) + 0%), calc(100% - (0% + 0%)) calc(100% - ((0 * 12.40291066rem) + 0%)), calc(0% + 0%) calc(100% - ((0 * 12.40291066rem) + 0%)));
+        margin-top: -25.17604757%;
+        margin-bottom: 0%;
+        grid-area: 2 / 2 / 7 / 3;
+        margin-right: 0%;
+    }
+    #libro1 {
+        grid-area: 3 / 7 / 9 / 10;
+    }
+    #libro2 {
+        grid-area: 5 / 12 / 10 / 14;
+    }
+    #libro3 {
+        grid-area: 4 / 16 / 9 / 18;
+    }
+    #maceta2 {
+        grid-area: 6 / 19 / 11 / 23;
+    }
+    #estante1 {
+        grid-area: 12 / 4 / 13 / 21;
+    }
+    #maceta3 {
+        grid-area: 17 / 6 / 21 / 8;
+    }
+    #libro4 {
+        grid-area: 14 / 9 / 18 / 11;
+    }
+    #libro5 {
+        grid-area: 15 / 13 / 19 / 15;
+    }
+    #libro6 {
+        grid-area: 16 / 17 / 20 / 20;
+    }
+    #estante2 {
+        grid-area: 22 / 5 / 23 / 22;
+    }
+    .temas {
+        grid-template-columns: 10.13772785rem 12.40291066rem 1.61625687rem 0 1.63236227rem 6.92516255rem 0.89318709rem 0.31851924rem 9.9206308rem 0.89318709rem 4.50111345rem 1.16849289rem 9.645325rem 1.16849289rem 4.18864997rem 1.48095636rem 9.33286153rem 0 1.48095636rem 7.43224538rem 0 0 14.86096176rem;
+        grid-template-rows: minmax(7.3528254rem, max-content) minmax(10.72215269rem, max-content) minmax(0.22712926rem, max-content) minmax(0.22712926rem, max-content) minmax(1.95445476rem, max-content) minmax(10.52748506rem, max-content) minmax(2.71313557rem, max-content) minmax(0.22712926rem, max-content) 0 0 0 minmax(11.53116883rem, max-content) minmax(5.92547676rem, max-content) 0 0 minmax(4.28206915rem, max-content) minmax(11.14013549rem, max-content) 0 0 0 0 minmax(11.53116883rem, max-content) minmax(7.3528254rem, max-content);
+    }
+}
+@media (min-width: 900px) {
+	#maceta2,#maceta3,#maceta4{
+		display: none;
+	}
+	#inicio{
+	grid-area: 1 / 26 / 1 / 27;
+}
+#activities{
+	grid-area: 1 / 28 / 1 / 30;
+}
+    #libro1 {
+        grid-area: 2 / 5 / 5 / 8;
+    }
+    #libro2 {
+        grid-area: 3 / 11 / 6 / 12;
+    }
+    #libro3 {
+        grid-area: 4 / 15 / 7 / 18;
+    }
+    #estante1 {
+        grid-area: 8 / 2 / 15 / 21;
+    }
+    #maceta {
+        grid-area: 9 / 20 / 18 / 24;
+    }
+    #atrapasueño {
+        grid-area: 10 / 17 / 21 / 19;
+    }
+    #libro4 {
+        grid-area: 11 / 25 / 16 / 26;
+    }
+    #libro5 {
+        grid-area: 12 / 27 / 17 / 28;
+    }
+    #libro6 {
+        grid-area: 13 / 29 / 19 / 30;
+    }
+    #papeles {
+        grid-area: 14 / 9 / 22 / 16;
+    }
+    #estante2 {
+        grid-area: 20 / 23 / 27 / 31;
+    }
+    #libros {
+        grid-area: 23 / 4 / 28 / 6;
+    }
+    #monitor {
+        grid-area: 25 / 7 / 30 / 14;
+    }
+    #imagenpc {
+        grid-area: 24 / 10 / 29 / 13;
+    }
+    #mesa {
+        margin-left: 0%;
+        clip-path: polygon(calc(0% + 0%) calc((0 * 44.83985113rem) + 0%), calc(100% - (0% + 0%)) calc((0 * 44.83985113rem) + 0%), calc(100% - (0% + 0%)) calc(100% - ((0.31050416 * 44.83985113rem) + 0%)), calc(0% + 0%) calc(100% - ((0.31050416 * 44.83985113rem) + 0%)));
+        margin-top: 0%;
+        margin-bottom: -31.050416%;
+        grid-area: 26 / 3 / 31 / 22;
+        margin-right: 0%;
+    }
+    .temas {
+        grid-template-columns: 5.62225476rem 0 0.71312438rem 4.90913038rem 3.31771167rem 3.06913554rem 0.53136085rem 0.73440349rem 0.40785169rem 4.47254971rem 6.91820806rem 1.8509757rem 1.67361602rem 2.09021316rem 0.62820426rem 1.51589405rem 4.77410975rem 0 5.92972182rem 0.78398772rem 0.5196529rem 1.43417768rem 6.95717676rem 1.53733529rem 7.12151722rem 5.01896581rem 7.00154799rem 6.35201792rem 7.00154799rem 3.33008924rem 3.7835182rem;
+        grid-template-rows: minmax(5.81817157rem, max-content) 0 0 minmax(9.86645249rem, max-content) 0 0 0 0 minmax(1.14657176rem, max-content) minmax(0.65904314rem, max-content) minmax(0.17109498rem, max-content) minmax(0.0814539rem, max-content) minmax(0.171831rem, max-content) minmax(6.15055179rem, max-content) minmax(3.58147165rem, max-content) 0 minmax(0.0814539rem, max-content) 0 0 minmax(1.48876171rem, max-content) minmax(0.99886453rem, max-content) minmax(0.53614761rem, max-content) minmax(1.40373349rem, max-content) 0 minmax(0.73206442rem, max-content) minmax(3.2209748rem, max-content) minmax(1.26957461rem, max-content) minmax(3.57316556rem, max-content) minmax(3.87404301rem, max-content) minmax(11.39712164rem, max-content);
+    }
+}

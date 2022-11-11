@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <!--script de java para los prefix de navegadores -->
+    <script type="text/javascript" src="../js/prefixfree.min.js"></script>
+    <!-- Jquery -->
+    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <!-- Turn JS -->
+    <script type="text/javascript" src="../js/turn.min.js"></script>
+    <!-- Scripts para los audios (Howler) -->
+    <script type="text/javascript" src="../js/howler.min.js"></script>
+     <!-- Font Awesome-->
+    <script type="text/javascript" src="../js/all.min.js"></script>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../css/normalize.css">
+     <!-- EMOJI CSS -->
+    <link rel="stylesheet" href="../css/emoji.css">
+	<title>Hours/Date</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="shortcut icon" href="../img/hours.png">
+    <style>
+        .paper img{
+            width: 10em;
+        }
+        .text-example p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+	<header>
+		 <img loading="lazy" src="../img/logo1.png" alt="LOGO" class="logo">
+		 <nav>
+		 	<a href="../index.html">INICIO</a>
+		 	<a href="topics.html">TEMAS</a>
+		 	<a href="activities.html">ACTIVIDADES</a>
+		 </nav>
+	</header>
+	<section class="topic">
+		<div class="container">
+			<div class="button" id="previous"><i class="fa-solid fa-circle-arrow-left"></i></div>
+			<div class="bound" id="bound">
+			 <div id="book">
+				<div class="hard front p1" id="Wpage">
+					<div class="front-content">
+						<img loading="lazy" src="../img/hours.svg" alt="">
+						<h2>HOURS AND DATE</h2>
+					</div>
+				</div>
+				<div class="hard p2"></div>
+				<div class="own-size p3"><div class="paper">
+					<h3>TELLING TIME</h3>
+					<p>Para decir la hora en inglés se tiene en cuenta los minutos que pasaron antes de 30 minutos y los que pasaron después de 30 minutos.</p>
+					<img loading="lazy" src="../img/hours/clock.svg" alt="">
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h4>PAST/AFTER: Minutos 1 al 29</h4>
+					<img loading="lazy" src="../img/hours/past.png" alt="">
+					<p>Se tiene en cuenta los minutos que han pasado desde el 1 al 29.</p>
+                    <p>El <b>AFTER</b> lo utilizan los americanos.</p>
+                    <p>El <b>PAST</b> lo utilizan los británicos.</p>
+                    <p class="tip"><i class="fa-solid fa-lightbulb icon" style="color: #77df70"></i> Una manera informal de decir la hora es:<b>It's <span class="vocal">Hour + Minutes</span>.</b></p>
+				</div></div>
+				<div class="own-size"><div class="paper">
+                    <div class="text-example">
+                        <p><b>&#8226;(2:20): it's twenty past two</b></p>
+                    <p class="translate">Son las dos y veinte</p>
+                    <p><b>&#8226;(3:10): it's ten after three</b></p>
+                    <p class="translate">Son las tres y diez</p>
+                    <p><b>&#8226;(5:26): it's twenty-six past five</b></p>
+                    <p class="translate">Son las cinco y veintiséis</p>
+                    <p><b>&#8226;(12:07): it's seven after twelve</b></p>
+                    <p class="translate">Son las doce y siete</p>
+                    </div>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h4>TO/BEFORE: Minutos 31 al 59</h4>
+					<img loading="lazy" src="../img/hours/to.png" alt="">
+					<p>Se tiene en cuenta los minutos que faltan para completar la hora siguiente.</p>
+                <p>El <b>BEFORE</b> lo utilizan los americanos.</p>
+                <p>El <b>TO</b> lo utilizan los británicos.</p>
+                <p class="tip"><i class="fa-solid fa-lightbulb icon" style="color: #77df70"></i> Se puede escribir también de manera informal: <b>Its <span class="vocal">Hour + Minutes</span>.</b></p>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<div class="text example">
+                    <p><b>&#8226;(5:52): it's eight before six</b></p>
+                    <p class="translate">Faltan ocho para las seis</p>
+                    <p><b>&#8226;(2:35): it's twenty-five to three</b></p>
+                    <p class="translate">Faltan veinticinco para las tres</p>
+                    <p><b>&#8226;(5:59): it's one before six</b></p>
+                    <p class="translate">Falta uno para las seis</p>
+                    <p><b>&#8226;(9:43): it's seventeen to ten</b></p>
+                    <p class="translate">Falta diecisiete para las diez</p>               
+                    </div>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h4>QUARTER, HALF AND O'CLOCK</h4>
+					<img loading="lazy" src="../img/hours/quarter.png" style="width: 22em;">
+					<p>Cuando son 30 minutos, lo podemos reemplazar por: <b>HALF PAST</b></p>
+                    <P>Cuando son 0 minutos, lo podemos reemplazar por: <b>O'CLOCK</b></P>
+                    <p>Cuando faltan o pasaron 15 minutos, lo podemos reemplazar por: <b>QUARTER PAST/TO</b></p>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<div class="text-example">
+                    <p><b>&#8226;(5:00): it's five o'clock</b></p>
+                    <p class="translate">Son las cinco en punto</p>
+                    <p><b>&#8226;(12:45): it's quarter to one</b></p>
+                    <p class="translate">Falta un cuarto para la una</p>
+                    <p><b>&#8226;(3:30): it's half past three</b></p>
+                    <p class="translate">Son las tres y media</p>
+                    <p><b>&#8226;(4:15): it's quarter past four</b></p>
+                    <p class="translate">Son las cuatro y cuarto</p>               
+                    </div>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h4>FRANJA HORARIA</h4>
+					<p>Esta forma de expresar la hora no permite situarla en una franja horaria correcta (mañana, tarde o noche), aunque en la mayoría de casos sabremos por deducción de cual se trata. En los casos donde no sea posible se colocará al final de la frase la franja del día a la que corresponda la hora.</p>
+				</div></div>
+                <div class="own-size"><div class="paper">
+                    <div class="text-example">
+                    <p><b>&#8226;(9:00): it's nine o'clock in the morning</b></p>
+                    <p class="translate">Son las nueve (en punto) de la mañana.</p>
+                    <p><b>&#8226;(3:15): it's quarter past three in the afternoon</b></p>
+                    <p class="translate">Son las tres y cuarto de la tarde</p>
+                    <p><b>&#8226;(7:30): it's half past seven in the evening.</b></p>
+                    <p class="translate">Son las siete y media de la tarde/noche</p>
+                    <p><b>&#8226;(2:00): it's two o'clock in the night</b></p>
+                    <p class="translate">Son las dos (en punto) de la noche</p>
+                    </div>
+                </div></div>
+				<div class="own-size"><div class="paper">
+					<h3>TELLING DATES</h3>
+					<h5>ORDINAL NUMBERS</h5>
+					<p>Para decir la fecha en inglés primero hay que saber los números ordinales.</p>
+					<img loading="lazy" src="../img/hours/ordinal.png" style="width: 22em;">
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h4>FORMULACION DE UNA FECHA</h4>
+					<hr>
+					<h4><i class="em-svg em-flag-gb"></i><B>:<span class="vocal">DIA</span>/<span class="consonante">MES</span>/AÑO</B></h4>
+                    <h4><i class="em-svg em-flag-us"></i><B>:<span class="consonante">MES</span>/<span class="vocal">DIA</span>/AÑO</B></h4>
+                    <p><span class="vocal">DÍA</span>: Se escriben en forma ordinal (1st, 31st)</p>
+                    <p><span class="consonante">MES</span>: La inicial siembre va en mayúscula (March, April)</p>
+                    <p><b>AÑO</b>: A la hora de pronunciarlo, se divide en 2 grupos (<b>19</b><span class="vocal">84</span>=<b>nineteen</b> <span class="vocal">eighty-four</span>)</p>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h5>Meses del año</h5>
+            <table>
+                    <tr>
+                        <th>Español</th>
+                        <th>Inglés</th>
+                    </tr>
+                    <tr>
+                        <td>Enero</td>
+                        <td>January</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>February</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo</td>
+                        <td>March</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                        <td>April</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo</td>
+                        <td>May</td>
+                    </tr>
+                    <tr>
+                        <td>Junio</td>
+                        <td>June</td>
+                    </tr>
+                    <tr>
+                        <td>Julio</td>
+                        <td>July</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto</td>
+                        <td>August</td>
+                    </tr>
+                    <tr>
+                        <td>September</td>
+                        <td>September</td>
+                    </tr>
+                    <tr>
+                        <td>Octubre</td>
+                        <td>October</td>
+                    </tr>
+                    <tr>
+                        <td>Noviembre</td>
+                        <td>November</td>
+                    </tr>
+                    <tr>
+                        <td>Diciembre</td>
+                        <td>December</td>
+                    </tr>
+            </table>
+				</div></div>
+				<div class="own-size"><div class="paper">
+					<h5>Días de la semana</h5>
+            <table>
+                    <tr>
+                        <th>Español</th>
+                        <th>Inglés</th>
+                    </tr>
+                    <tr>
+                         <td>Lunes</td>
+                         <td>Monday</td>
+                     </tr>
+                     <tr>
+                         <td>Martes</td>
+                         <td>Tuesday</td>
+                     </tr>
+                     <tr>
+                         <td>Miércoles</td>
+                         <td>Wednesday</td>
+                     </tr>
+                     <tr>
+                         <td>Jueves</td>
+                         <td>Thursday</td>
+                     </tr>
+                     <tr>
+                         <td>Viernes</td>
+                         <td>Friday</td>
+                     </tr>
+                     <tr>
+                         <td>Sábado</td>
+                         <td>Saturday</td>
+                     </tr>
+                     <tr>
+                         <td>Domingo</td>
+                         <td>Sunday</td>
+                     </tr>
+            </table>
+				</div></div>
+                <div class="own-size"><div class="paper">
+                    <h5>EJEMPLOS DE FECHAS EN INGLES AMERICANO</h5>
+                    <div class="text-example">
+                        <p><b>&#8226;Christmas is on December 25th</b></p>
+                    <p class="translate">La Navidad es el 25 de diciembre</p>
+                    <p><b>&#8226;The last time I saw him was on June 3rd</b></p>
+                    <p class="translate">La última vez que lo vi fue el 3 de junio</p>
+                    <p><b>&#8226;America was discovered on October 12th, 1492</b></p>
+                    <p class="translate">América fue descubierta el 12 de octubre de 1492</p>
+                    <p><b>&#8226;Today is Monday, February 13th</b></p>
+                    <p class="translate">Hoy es lunes, 13 de febrero</p>
+                    </div>
+                </div></div>
+				<div class="own-size semifinal"><div class="paper">
+					<h5>EJEMPLOS DE FECHAS EN INGLES BRITÁNICO</h5>
+					<div class="text-example">
+                    <p><b>&#8226;He was born on 11th February</b></p>
+                    <p class="translate">Él nació el 11 de febrero</p>
+                    <p><b>&#8226;The story begins on 18 June, 1982</b></p>
+                    <p class="translate">La historia comienza el 18 de junio de 1982</p>
+                    <p><b>&#8226;We will stay at the hotel from August 12th to August 18th</b></p>
+                    <p class="translate">Nos quedaremos en el hotel del 12 de agosto al 18 de agosto</p>
+                    <p><b>&#8226;The meeting will be next Tuesday, May 18</b></p>
+                    <p class="translate">La reunión será el próximo martes 18 de mayo</p>               
+                    </div>
+				</div></div>
+                <div class="own-size"><div class="paper"></div></div>
+				<div class="hard fixed final"></div>
+				<div class="hard back">
+					<div class="back-content">
+                        <div class="text-back">
+                     <h4>Creadores</h4>
+                     <hr>
+                     <p>Sara Alejandra Martinez Moreno</p>
+                     <p>Carlos Andrés Cristancho Muñoz</p>
+                   </div>
+                       <div class="text-back">
+                         <h4>Contacto</h4>
+                         <hr>
+                         <p>saramartinez1607@gmail.com</p>
+                         <p>cacristancho722@misena.edu.co</p>
+                     </div>
+                   <div class="text-back">
+                       <img loading="lazy" src="../img/escudo.svg" alt="Escudo" class="logo"> 
+                   </div>
+                    </div>
+				</div>
+			</div>
+			</div>
+			<div class="button" id="next"><i class="fa-solid fa-circle-arrow-right"></i></div>
+		</div>
+	</section>
+     <!-- Script para "Ir arriba","Imagen modal" y "audios"-->
+	 <script type="text/javascript" src="../js/main.js"></script>
+     <style>
+              :root{
+                --libro-cover: url(../img/hourscover.jpeg);
+    /*--primario: #921224;
+    --secundario: #DD5353;
+    --terciario: #5A082D;
+    --cuaternario: #F4E5C2;
+    --quintario: #dd7e6b;
+    --sextiario: #7D1935;
+    --septiario: #8F1D14;
+    --octario: #E63E6D;*/
+        }
+     </style>
+</body>
+</html>

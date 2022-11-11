@@ -1,0 +1,76 @@
+section{
+        min-height: 100vh;
+}
+.contenido{
+        padding: 1rem;
+        border-radius: 1rem;
+       /* background-color: #D9CAB3;*/
+}
+button{
+        font-size: 1.2rem;
+        background-color: #6DB193;
+        border: none;
+        padding: 0.1rem 0.2rem;
+        border-radius: 0.3rem;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 9px #999;
+        margin: 1rem;
+}
+
+button:active{
+        background-color: #295F4E;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+.item{
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        font-size: 1.2rem;
+        font-family: 'Shadows Into Light Two';
+        background-color: #f18632;
+        color: black;
+        padding: 0 0.3rem;
+        border-radius: 0.5rem;
+        cursor: move;
+}
+.correct{
+        background-color: green;
+} 
+
+.incorrect{
+        background-color: red;
+}
+.swiper-slide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.caja{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 2.3rem;
+        min-width: 4rem;
+        margin: 2px 0;
+        background-color: #595959;
+     /*   border-radius: 0.5rem 0.5rem 0 0;*/
+}
+#items{
+        border: inherit;
+        border-radius: 1rem;
+        background-color: #323232;
+        padding: 1rem;
+        margin: 1rem;
+        min-width: 15ch;
+}
+#items .item{
+        margin: 0 5px;
+}
+.swiper-slide .text p{
+        text-align: center;
+        margin: 2rem 0;
+        color: black;
+        font-size: 1.2rem;
+}

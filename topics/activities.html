@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+       <!--script de java para los prefix de navegadores -->
+    <script type="text/javascript" src="../js/prefixfree.min.js"></script>
+     <!-- Font Awesome-->
+    <script type="text/javascript" src="../js/all.min.js"></script>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../css/normalize.css">
+	<title>Activities</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/topics_grid.css">
+	<link rel="stylesheet" href="../css/topics.css">
+	<link rel="shortcut icon" href="../img/.png">
+</head>
+<body>
+	<header>
+		 <img loading="lazy" src="../img/logo1.png" alt="LOGO" class="logo">
+		 <nav>
+		 	<a href="../index.html">INICIO</a>
+		 	<a href="topics.html">TOPICS</a>
+		 </nav>
+	</header>
+	<section id="fondo">
+		<div class="temas">
+			<!-- <div id="inicio">
+				<a href="../index.html">INICIO</a>
+			</div>
+			<div id="activities">
+				<a href="topics.html">TEMAS</a>
+			</div> -->
+			<a id="libro1" href="activities/past-quiz1.html" class="card" style="--i:1;"><div class="face front">
+				<div class="top-left"></div>
+				<img src="../img/1.png" alt="">
+			</div>
+			<div class="face back">
+				<div class="top-right"></div>
+				<h2>PAST SIMPLE QUIZ</h2>
+			</div></a>
+			<a id="libro2" href="activities/past-verbs1.html" class="card" style="--i:2;"><div class="face front">
+				<div class="top-left"></div>
+				<img src="../img/1.png" alt="">
+			</div>
+			<div class="face back">
+				<div class="top-right"></div>
+				<h2>PAST SIMPLE VERBS</h2>
+			</div></a>
+			<a id="libro3" href="activities/present1.html" class="card" style="--i:3;"><div class="face front">
+				<div class="top-left"></div>
+				<img src="../img/2.png" alt="">
+			</div>
+			<div class="face back">
+				<div class="top-right"></div>
+				<h2>PRESENT ACTIVITY</h2>
+			</div></a>
+			<a id="libro4" href="activities/future1.html" class="card" style="--i:4;"><div class="face front">
+				<div class="top-left"></div>
+				<img src="../img/3.png" alt="">
+			</div>
+			<div class="face back">
+				<div class="top-right"></div>
+				<h2>FUTURE ACTIVITY</h2>
+			</div></a>
+			<a id="libro5" href="activities/hours-quiz.html" class="card" style="--i:5;"><div class="face front">
+				<div class="top-left"></div>
+				<img src="../img/5.png" alt="">
+			</div>
+			<div class="face back">
+				<div class="top-right"></div>
+				<h2>HOURS QUIZ</h2>
+			</div></a>
+			<a id="libro6" href="activities/hours-quiz.html" class="card" style="--i:3;"><div class="face front">
+				<div class="top-left"></div>
+				<img src="../img/6.png" alt="">
+			</div>
+			<div class="face back">
+				<div class="top-right"></div>
+				<h2>PAST SIMPLE QUIZ</h2>
+			</div></a>
+		
+		<div id="estante1">
+		<img loading="lazy" src="../img/topics/estante.svg" alt="estante1" loading="lazy">
+	</div>
+		<div id="atrapasueño">
+		<img loading="lazy" src="../img/topics/atrapasueño.svg" alt="atrapasueño" loading="lazy">
+	</div>
+	<div id="estante1">
+		<img loading="lazy" src="../img/topics/estante.svg" alt="estante" loading="lazy">
+	</div>
+	<div id="papeles">
+		<img loading="lazy" src="../img/topics/papeles.svg" alt="papeles" loading="lazy">
+	</div>
+	<div id="estante2">
+		<img loading="lazy" src="../img/topics/estante2.svg" alt="estante2" loading="lazy">
+	</div>
+	<div id="libros">
+		<img loading="lazy" src="../img/topics/libros.svg" alt="libros" loading="lazy">
+	</div>
+	<div id="monitor" style="z-index: 1;">
+		<img loading="lazy" src="../img/topics/pc.webp" alt="pc" loading="lazy" style="z-index: 2;">
+	</div>
+	<div id="imagenpc">
+		<img loading="lazy" src="../img/topics/inicio.webp" alt="imagenpc" loading="lazy">
+	</div>
+	<div id="mesa">
+		<img loading="lazy" src="../img/topics/mesa.svg" alt="mesa" loading="lazy">
+	</div>
+	<div id="maceta">
+		<img loading="lazy" src="../img/topics/maceta.webp" alt="maceta" loading="lazy">
+	</div>
+	<div id="maceta2">
+		<img loading="lazy" src="../img/topics/maceta2.svg" alt="maceta2">
+	</div>
+	<div id="maceta3">
+		<img loading="lazy" src="../img/topics/maceta3.svg" alt="maceta3">
+	</div>
+	<div id="maceta4">
+		<img loading="lazy" src="../img/topics/maceta4.webp" alt="">
+	</div>
+	</div>
+	</section>
+	<style>
+		.card{
+			display: block;
+			position: relative;
+		}
+		.face{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			background-color: #f1f1f1;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+			border-radius: 1rem;
+			overflow: hidden;
+			transition: .5s;
+			background-image: url(../img/paperactivitie.svg);
+			background-size: cover;
+			background-position: -.2rem;
+		}
+		.front{
+			transform: perspective(600px) rotateY(0deg);
+			padding: 1rem;
+		}
+		.front img{
+			width: 100%;
+		}
+		.back h2{
+			text-align: center;
+			font-size: 150%;
+			color: black;
+		}
+		.back{
+			transform: perspective(600px) rotateY(180deg);
+		}
+		.card:hover .front{
+			transform: perspective(600px) rotateY(180deg);
+		}
+		.card:hover .back{
+			transform: perspective(600px) rotateY(360deg);
+		}	
+	</style>
+</body>
+</html>

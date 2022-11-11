@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <!--script de java para los prefix de navegadores -->
+    <script type="text/javascript" src="../js/prefixfree.min.js"></script>
+    <!-- Jquery -->
+    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <!-- Turn JS -->
+    <script type="text/javascript" src="../js/turn.min.js"></script>
+    <!-- Scripts para los audios (Howler) -->
+    <script type="text/javascript" src="../js/howler.min.js"></script>
+     <!-- Font Awesome-->
+    <script type="text/javascript" src="../js/all.min.js"></script>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../css/normalize.css">
+	<title>Past Simple</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="shortcut icon" href="../img/past.png">
+</head>
+<body>
+	<header>
+		 <img loading="lazy" src="../img/logo1.png" alt="LOGO" class="logo">
+		 <nav>
+		 	<a href="../index.html">INICIO</a>
+		 	<a href="topics.html">TEMAS</a>
+		 	<a href="activities.html">ACTIVIDADES</a>
+		 </nav>
+	</header>
+	<section class="topic">
+		<div class="container">
+			<div class="button" id="previous"><i class="fa-solid fa-circle-arrow-left"></i></div>
+			<div class="bound" id="bound">
+			 <div id="book" class="book">
+				<div class="hard front p1" id="Wpage">
+					<div class="argolla"></div>
+					<div class="front-content">
+						<img src="../img/past.svg" loading="lazy" alt="">
+					  <h2>PAST SIMPLE</h2>
+					</div>
+				</div>
+				<div class="hard p2"></div>
+				<div class="own-size p3"><div class="paper">
+					<h3>¿QUE ES?</h3>
+					<p>El pasado simple es el tiempo verbal que se usa en el idioma inglés para narrar hechos que ocurrieron en un momento específico del pasado.</p>
+					<p>La duración no es relevante.</p>
+					<p>El tiempo en que se sitúa la acción puede ser un pasado reciente o un pasado lejano.</p>
+					<img loading="lazy" src="../img/past/past1.png" alt="Past1"></div></div>
+				<div class="own-size"><div class="paper">
+					<h3 style="text-align: center;">FORMACION DEL PAST SIMPLE</h3>
+					<hr>
+					<img loading="lazy" src="../img/past/interrogative.png" alt="Interrogative" class="form">
+					<p>La forma interrogativa se emplea el auxiliar "<b>DID</b>"</p>
+					<p>En el pasado simple se usa para hacer preguntas sobre eventos que han ocurrido en el pasado.</p>
+					<p class="tip"><i class="fa-solid fa-lightbulb" style="color:#77df70;"></i> Una forma corta de escribir "<b>DID NOT</b>" es "<b>DIDN'T</b>".</p></div></div>
+				<div class="own-size"><div class="paper">
+					<div class="example">
+						<div class="example-card">
+							<img loading="lazy" src="../img/past/example1.jpg" class="example-img">
+                            <p><b>Did she watch the film yesterday?</b></p>
+                            <p class="translate">¿Vió la película ayer?</p>
+						</div>
+						<div class="example-card">
+							<img loading="lazy" src="../img/past/example2.jpg" class="example-img">
+                            <p><b>Did you drink water?</b></p>
+                            <p class="translate">¿Bebió ella agua?</p>
+						</div>
+					</div></div></div>
+				<div class="own-size"><div class="paper">
+					<img loading="lazy" src="../img/past/negative.png" alt="Negative" class="form">
+					<p>Para formar las oraciones en negativo hacemos uso del verbo auxiliar <b>to do</b> en tiempo pasado, sobre el cual recae la negación.</p>
+					<p>Al igual que con la forma interrogativa, en la negativa podemos usar la abreviación <b>DIDN'T</b></p></div></div>
+				<div class="own-size"><div class="paper">
+					<div class="example">
+						<div class="example-card">
+							<img loading="lazy" src="../img/past/example3.jpg" class="example-img">
+                            <p><b>She didn’t study for the exam</b></p>
+                            <p class="translate">Ella no estudió para el examen</p>        
+						</div>
+						<div class="example-card">
+							<img loading="lazy" src="../img/past/example4.jpg" class="example-img">
+                            <p><b>He didn't feel well yesterday</b></p>
+                            <p class="translate">Él no se sintió bien ayer</p>
+						</div>
+					</div></div></div>
+				<div class="own-size"><div class="paper">
+					<img loading="lazy" src="../img/past/affirmative.png" alt="Affirmative" class="form">
+					<p>En oraciones afirmativas, la forma del verbo en pasado simple es la misma para todos los sujetos con excepción del verbo <b>TO BE</b></p>
+					<table>
+                      <tr>
+                       <th>PRONOMBRE</th>
+                       <th>VERBO</th>
+                      </tr>
+                      <tr>
+                        <td><ul>
+                          <li>I</li>
+                          <li>She</li>
+                          <li>He</li>
+                          <li>It</li>
+                        </ul></td>
+                        <tD>Was</tD>
+                      </tr>
+                      <tr>
+                        <td>
+                          <ul>
+                            <li>We</li>
+                            <li>You</li>
+                            <li>They</li>
+                          </ul>
+                        </td>
+                        <td>Were</td>
+                      </tr>
+                    </table>
+					<p>También poseen una particularidad con los verbos...</p>
+					<p>A la hora de formar oraciones afirmativas, el verbo se conjuga de manera diferente.</p></div></div>
+				<div class="own-size"><div class="paper">
+					<p>En las oraciones afirmativas existen 2 tipos de verbos en pasado:</p>
+					<p class="translate">&raquo; REGULARES</p>
+                    <p class="translate">&raquo; IRREGULARES</p>
+                    <hr>
+                    <h4>REGULARES</h4>
+                    <p>Los verbos regulares en su forma pasada se pone <b>-ED</b> al final, pero hay algunas reglas de escritura para algunos verbos regulares.</p>
+                    <hr>
+                    <h5>Si termina en <span class="vocal">VOCAL</span> + "<span class="consonante">Y</span>", se pone <b>ED</b>.</h5>
+                    <div class="example-audios">
+                    	<div>
+                    		<p><a href="../aud/Past simple/play.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Pl<span class="vocal">a</span><span class="consonante">y</span>
+                            </p>
+                    		<p><a href="../aud/Past simple/pray.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Pr<span class="vocal">a</span><span class="consonante">y</span></p>
+                    		<p><a href="../aud/Past simple/stay.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            St<span class="vocal">a</span><span class="consonante">y</span></p>
+                            <p><a href="../aud/Past simple/enjoy.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Enj<span class="vocal">o</span><span class="consonante">y</span></p>
+                    	</div>
+                    	<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+                    	<div>
+                    		<p><a href="../aud/Past simple/played.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Play<b>ed</b></p>
+                    		<p><a href="../aud/Past simple/prayed.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Pray<b>ed</b></p>
+                    		<p><a href="../aud/Past simple/stayed.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Stay<b>ed</b></p>
+                            <p><a href="../aud/Past simple/enjoyed.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Enjoy<b>ed</b></p>
+                    	</div>
+                    </div></div></div>
+				<div class="own-size"><div class="paper">
+					<h5>Si termina en <span class="consonante">CONSONANTE</span> + "<span class="consonante">Y</span>", se remplaza la "<span class="consonante">Y</span>" por <b>IED</b>.</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/cry.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            C<span class="consonante">ry</span></p>
+							<p><a href="../aud/Past simple/try.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            T<span class="consonante">ry</span></p>
+							<p><a href="../aud/Past simple/deny.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            De<span class="consonante">ny</span></p>
+							<p><a href="../aud/Past simple/study.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Stu<span class="consonante">dy</span></p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/cried.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Cr<b>ied</b></p>
+							<p><a href="../aud/Past simple/tried.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Tr<b>ied</b></p>
+							<p><a href="../aud/Past simple/denied.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Den<b>ied</b></p>
+							<p><a href="../aud/Past simple/studied.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Stud<b>ied</b></p>
+						</div>
+					</div>
+					<h5>Si el verbo termina en <span class="consonante">CONSONANTE</span> + <span class="vocal">VOCAL</span> + <span class="consonante">CONSONANTE</span> y tiene la mayor fuerza en la última sílaba, duplicamos la última <span class="consonante">CONSONANTE</span> y agregamos <b>ED</b>.</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/jog.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            <span class="consonante">J</span><span class="vocal">o</span><span class="consonante">g</span></p>
+                            <p><a href="../aud/Past simple/ban.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            <span class="consonante">B</span><span class="vocal">a</span><span class="consonante">n</span></p>
+                            <p><a href="../aud/Past simple/stop.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            S<span class="consonante">t</span><span class="vocal">o</span><span class="consonante">p</span></p>
+                            <p><a href="../aud/Past simple/chop.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            C<span class="consonante">h</span><span class="vocal">o</span><span class="consonante">p</span></p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/jogged.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Jog<b>ged</b></p>
+                            <p><a href="../aud/Past simple/banned.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Ban<b>ned</b></p>
+                            <p><a href="../aud/Past simple/stopped.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Stop<b>ped</b></p>
+                            <p><a href="../aud/Past simple/chopped.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Chop<b>ped</b></p>
+						</div>
+					</div></div></div>
+				<div class="own-size"><div class="paper">
+					<h5>Si termina en "<span class="vocal">E</span>" se pone <b>D</b>.</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/die.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Di<span class="vocal">e</span></p>
+                            <p><a href="../aud/Past simple/like.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Lik<span class="vocal">e</span></p>
+                            <p><a href="../aud/Past simple/dance.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Danc<span class="vocal">e</span></p>
+                            <p><a href="../aud/Past simple/change.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a> 
+                            Chang<span class="vocal">e</span></p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/died.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a> 
+                            Die<b>d</b></p>
+                            <p><a href="../aud/Past simple/liked.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Like<b>d</b></p>
+                            <p><a href="../aud/Past simple/danced.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Dance<b>d</b></p>
+                            <p><a href="../aud/Past simple/changed.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Change<b>d</b></p>
+						</div>
+					</div>
+					<h5>Si no cumple las anteriores condiciones, agregamos <b>ED</b>.</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/help.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Help</p>
+							<p><a href="../aud/Past simple/kiss.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Kiss</p>
+							<p><a href="../aud/Past simple/work.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Work</p>
+							<p><a href="../aud/Past simple/walk.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Walk</p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/helped.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Help<b>ed</b></p>
+							<p><a href="../aud/Past simple/kissed.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Kiss<b>ed</b></p>
+							<p><a href="../aud/Past simple/worked.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Work<b>ed</b></p>
+							<p><a href="../aud/Past simple/walked.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Walk<b>ed</b></p>
+						</div>
+					</div></div></div>
+				<div class="own-size"><div class="paper" >
+					<h4>IRREGULARES</h4>
+					<p>En los verbos irregulares su forma en pasado cambia su gramática.</p>
+                    <p>Desafortunadamente, no hay unas reglas que indiquen como se escriben en forma pasado, pero se pueden clasificar algunos verbos en patrones</p>
+                    <hr>
+                    <h5>Cuando tienen doble "<span class="vocal">E</span>", eliminamos una "<span class="vocal">E</span>" y ponemos "<span class="consonante">T</span>" al final</h5>
+                    <div class="example-audios">
+                    	<div>
+                    		<p><a href="../aud/Past simple/meet.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            M<span class="vocal">ee</span>t</p>
+                    		<p><a href="../aud/Past simple/keep.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            K<span class="vocal">ee</span>p</p>
+                    		<p><a href="../aud/Past simple/sweep.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Sw<span class="vocal">ee</span>p</p>
+                    		<p><a href="../aud/Past simple/sleep.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Sl<span class="vocal">ee</span>p</p>
+                    	</div>
+                    	<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+                    	<div>
+                    		<p><a href="../aud/Past simple/met.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            M<b>et</b></p>
+                    		<p><a href="../aud/Past simple/kept.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            K<b>e</b>p<b>t</b></p>
+                    		<p><a href="../aud/Past simple/swept.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Sw<b>e</b>p<b>t</b></p>
+                    		<p><a href="../aud/Past simple/slept.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Sl<b>e</b>p<b>t</b></p>
+                    	</div>
+                    </div></div></div>
+				<div class="own-size"><div class="paper">
+					<h5><span class="vocal">I</span> + <span class="consonante">C</span> + <span class="vocal">E</span>, se cambia la <span class="vocal">I</span> por <span class="vocal">O</span></h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/ride.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            R<span class="vocal">i</span><span class="consonante">d</span><span class="vocal">e</span></p>
+							<p><a href="../aud/Past simple/rise.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            R<span class="vocal">i</span><span class="consonante">s</span><span class="vocal">e</span></p>
+							<p><a href="../aud/Past simple/write.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Wr<span class="vocal">i</span><span class="consonante">t</span><span class="vocal">e</span> </p>
+							<p><a href="../aud/Past simple/drive.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Dr<span class="vocal">i</span><span class="consonante">v</span><span class="vocal">e</span></p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/rode.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            R<b>ode</b></p>
+							<p><a href="../aud/Past simple/rose.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            R<b>ose</b></p>
+							<p><a href="../aud/Past simple/wrote.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            W<b>rote</b></p>
+							<p><a href="../aud/Past simple/drove.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Dr<b>ove</b></p>
+						</div>
+					</div>
+					<h5>-Aught / -Ought</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/teach.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Teach</p>
+							<p><a href="../aud/Past simple/catch.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Catch</p>
+							<p><a href="../aud/Past simple/fight.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Fight</p>
+							<p><a href="../aud/Past simple/think.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Think</p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/taught.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            T<b>aught</b></p>
+							<p><a href="../aud/Past simple/caught.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            C<b>aught</b></p>
+							<p><a href="../aud/Past simple/fought.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            F<b>ought</b></p>
+							<p><a href="../aud/Past simple/thought.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Th<b>ought</b></p>
+						</div>
+					</div></div></div>
+				<div class="own-size semifinal"><div class="paper">
+					<h5>-EW</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/blow.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Blow </p>
+							<p><a href="../aud/Past simple/draw.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Draw </p>
+							<p><a href="../aud/Past simple/grow.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Grow</p>
+							<p><a href="../aud/Past simple/know.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Know</p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/blew.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Bl<b>ew</b></p>
+							<p><a href="../aud/Past simple/drew.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Dr<b>ew</b></p>
+							<p><a href="../aud/Past simple/grew.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Gr<b>ew</b></p>
+							<p><a href="../aud/Past simple/knew.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Kn<b>ew</b></p>
+						</div>
+					</div>
+					<h5>No cambian</h5>
+					<div class="example-audios">
+						<div>
+							<p><a href="../aud/Past simple/cut.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Cut</p>
+							<p><a href="../aud/Past simple/hit.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Hit</p>
+							<p><a href="../aud/Past simple/call.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Call</p>
+							<p><a href="../aud/Past simple/shut.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Shut</p>
+						</div>
+						<div><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p><p>&raquo;</p></div>
+						<div>
+							<p><a href="../aud/Past simple/cut.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Cut</p>
+							<p><a href="../aud/Past simple/hit.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Hit</p>
+							<p><a href="../aud/Past simple/call.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Call</p>
+							<p><a href="../aud/Past simple/shut.mp3" class="audio"><i class="fa-solid fa-volume-high icon"></i></a>
+                            Shut</p>
+						</div>
+					</div></div></div>
+				<div class="hard fixed final"></div>
+				<div class="hard back">
+					<div class="back-content">
+						<div class="text-back">
+                     <h4>Creadores</h4>
+                     <hr>
+                     <p>Sara Alejandra Martinez Moreno</p>
+                     <p>Carlos Andrés Cristancho Muñoz</p>
+                   </div>
+                       <div class="text-back">
+                         <h4>Contacto</h4>
+                         <hr>
+                         <p>saramartinez1607@gmail.com</p>
+                         <p>cacristancho722@misena.edu.co</p>
+                     </div>
+                   <div class="text-back">
+                       <img src="../img/escudo.svg" loading="lazy" alt="Escudo" class="logo"> 
+                   </div>
+				    </div>
+					</div> 
+			</div>
+			</div>
+			<div class="button" id="next"><i class="fa-solid fa-circle-arrow-right"></i></div>
+		</div>
+	</section>
+     <!-- Script para "Ir arriba","Imagen modal" y "audios"-->
+	 <script type="text/javascript" src="../js/main.js"></script>
+	 <style>
+	 	:root{
+	 		--libro-cover: url(../img/pastcover.jpeg);
+   /* --primario: #1E5128;
+    --secundario: #4E9F3D;
+    --terciario: #5A082D;
+    --cuaternario: #04879C;
+    --quintario: #dd7e6b;
+    --sextiario: #7D1935;
+    --septiario: #9D0B28;
+    --octario: #E63E6D;*/
+	 	}
+	 </style>
+</body>
+</html>

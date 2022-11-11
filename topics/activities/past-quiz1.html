@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../../js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="../../js/sweetalert2.all.js"></script>
+    <script type="text/javascript" defer src="../../js/quiz.js"></script>
+    <script type="text/javascript" src="past-quiz1.js"></script>
+    <link rel="icon" href="../../img/activities.png">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/quiz.css">
+    <link rel="shortcut icon" href="../../img/1.png">
+    <title>Past Simple Quiz</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+         <img src="../../img/logo1.png" alt="LOGO" class="logo">
+         <nav>
+            <a href="../../index.html">INICIO</a>
+            <a href="../topics.html">TEMAS</a>
+            <a href="../activities.html">ACTIVIDADES</a>
+         </nav>
+    </header>
+    <!--Contenido-->
+    <section>
+        <div id="tablero-de-juego">
+          <div id="encabezado">
+               <a id="ayuda" class="btn btn-info" onclick="ayuda()">Ayuda</a>
+               <br>
+               <span id="pregunta">Aquí va la pregunta</span>
+               <br>
+               <img id="imagen" src="https://i.ibb.co/kh4FD6Z/img.png" style="width: 90%;height: 200px;object-fit: contain;">
+          </div>
+          <div class="opcion" id="opcion-1" onclick="seleccionarOpción(0)">
+               Opción 1
+          </div>
+          <div class="opcion" id="opcion-2" onclick="seleccionarOpción(1)">
+               Opción 2
+          </div>
+          <div class="opcion" id="opcion-3" onclick="seleccionarOpción(2)">
+               Opción 3
+          </div>
+          <div class="opcion" id="opcion-4" onclick="seleccionarOpción(3)">
+               Opción 4
+          </div>
+     </div>
+        
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="text">
+                <h4>Creadores</h4>
+                <hr>
+                <p>Sara Alejandra Martinez Moreno</p>
+                <p>Carlos Andrés Cristancho Muñoz</p>
+            </div>
+            <div class="text">
+                <img src="../../img/escudo.svg" alt="Escudo" class="logo"> 
+            </div>
+         <div class="text">
+            <h4>Contacto</h4>
+            <hr>
+            <p>saramartinez1607@gmail.com</p>
+            <p>cacristancho722@misena.edu.co</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

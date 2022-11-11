@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="present.svg"
+   inkscape:export-filename="/home/Savantac/Dropbox/Proyecto de grado/PROYECTO 2/img/present.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.24824696"
+     inkscape:cx="80.564934"
+     inkscape:cy="1282.9966"
+     inkscape:window-width="1280"
+     inkscape:window-height="963"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect14735"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Utilice la regla de relleno parimpar en el diálogo &lt;b&gt;Relleno y borde&lt;/b&gt; si el resultado no está aplanada después de convertir el recorte en trayectos." />
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect11434"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Utilice la regla de relleno parimpar en el diálogo &lt;b&gt;Relleno y borde&lt;/b&gt; si el resultado no está aplanada después de convertir el recorte en trayectos." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11416">
+      <g
+         id="g11432"
+         style="display:block">
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14386;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11418"
+           ry="17.00139"
+           rx="16.200277"
+           cy="280.92737"
+           cx="-362.78732" />
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14386;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11420"
+           ry="17.00139"
+           rx="16.200277"
+           cy="233.77136"
+           cx="-383.85754" />
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14386;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11422"
+           ry="17.00139"
+           rx="16.200277"
+           cy="186.55109"
+           cx="-362.84164" />
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14386;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11424"
+           ry="17.00139"
+           rx="16.200277"
+           cy="186.27277"
+           cx="-310.76904" />
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.15947;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11426"
+           ry="17.00139"
+           rx="16.64534"
+           cy="233.87076"
+           cx="-289.65552" />
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14386;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11428"
+           ry="17.00139"
+           rx="16.200277"
+           cy="280.88181"
+           cx="-310.58618" />
+        <ellipse
+           style="fill:#0300ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.52455;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           id="ellipse11430"
+           cx="-336.7692"
+           cy="233.73485"
+           rx="21.986092"
+           ry="22.253128" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14731">
+      <path
+         style="display:block;fill:#f700f5;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -205.8523,217.82018 0.13666,58.71108 c 1.63984,5.50582 5.5656,8.47173 11.47756,9.23075 l 44.08023,0.38932 c 20.66384,-10.07063 3.88955,-27.153 0,-26.23551 l -29.27187,-0.0311 -0.0959,-41.78046 c -5.3419,-15.06425 -22.11222,-14.47349 -26.32668,-0.28408 z"
+         id="path14733"
+         sodipodi:nodetypes="cccccccc" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="mix-blend-mode:normal">
+    <path
+       style="mix-blend-mode:normal;fill:#000003;fill-opacity:1;stroke-width:0.802577"
+       d="m 225.90595,510.80541 c -28.94281,-3.48819 -55.9731,-11.49964 -82.25705,-24.38 C 115.17532,472.47203 92.64725,456.12879 70.99344,433.71668 38.45104,400.03471 15.18977,356.87281 5.30442,311.82899 0.82417,291.41418 0,282.74684 0,256.0449 0,229.34297 0.82417,220.67562 5.30442,200.26081 15.18977,155.21699 38.45104,112.0551 70.99344,78.37311 92.64725,55.96102 115.17532,39.61777 143.6489,25.66436 159.98704,17.65795 173.58932,12.52356 189.15495,8.48745 214.10425,2.01825 229.9998,0 256,0 c 26.0002,0 41.89577,2.01825 66.84505,8.48745 28.13171,7.29438 58.13197,21.54397 83.22391,39.5299 39.0879,28.01817 70.58671,68.27904 88.65402,113.31501 6.95309,17.33181 11.96668,36.1197 15.42157,57.79069 1.65338,10.37096 1.85545,14.39186 1.85545,36.92185 0,22.52999 -0.20207,26.55088 -1.85545,36.92183 -6.45719,40.50313 -18.20939,71.18696 -39.81117,103.94302 -20.95834,31.78037 -46.44443,56.58574 -79.51206,77.38834 -10.89591,6.85454 -34.68759,18.40514 -47.11107,22.8719 -17.88699,6.43112 -39.55237,11.48233 -58.81505,13.71254 -13.16087,1.52374 -46.06319,1.48073 -58.98925,-0.0771 z M 362.90319,341.64436 c 4.65757,-2.36058 8.19537,-6.26989 11.19421,-12.3697 1.85611,-3.77542 2.04016,-4.93822 1.72679,-10.90969 -0.41152,-7.84192 -2.57298,-12.3696 -7.93145,-16.61434 -1.80861,-1.4327 -22.21715,-15.17835 -45.35232,-30.54593 l -42.06393,-27.94103 v -62.19634 c 0,-65.32609 -0.13105,-67.99836 -3.60341,-73.49997 -4.42246,-7.00685 -13.3284,-12.05219 -21.27433,-12.05219 -7.94426,0 -16.89031,5.06743 -21.24706,12.03526 -3.74917,5.99613 -3.76446,6.38048 -3.20692,80.62462 0.57683,76.81288 0.52218,75.99397 5.47277,82.00095 3.16135,3.83593 103.47818,70.61575 109.26335,72.7354 5.29462,1.93993 11.62438,1.46879 17.0223,-1.26704 z"
+       id="path16103" />
+  </g>
+</svg>

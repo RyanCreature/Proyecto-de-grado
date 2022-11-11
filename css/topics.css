@@ -1,0 +1,157 @@
+header{
+font-size: initial;
+padding: 0;    
+}
+header nav a{
+	padding: 2rem;
+	margin: 0 2.5rem;
+}
+.libro{
+			display: grid;
+			justify-items: center;
+		}
+#inicio,#activities{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#inicio a , #activities a{
+	text-decoration: none;
+	background-color: #295F4E;
+	font-family: 'Mulish';
+	color: #EEF2E6;
+	border-radius: 2rem;
+	border: 2px solid #323232;
+	box-shadow: 0px 3px 10px black;
+	padding: 1rem 2rem;
+	font-size: 2rem;
+	margin: 0 2rem;
+}
+#inicio a:hover , #activities a:hover{
+	box-shadow: 0px 3px 10px #295F4E;
+	color: #323232;
+	background-color: #F4E5C2;
+	transform: translateY(5px);
+	transition: all 0.3s;
+}
+.book , .card{
+	width: 100%;
+	height: 100%;
+	animation-name: intro;
+  animation-duration: calc(1.5s / 6 * var(--i));
+  animation-timing-function: ease-in-out;
+}
+.paper-front{
+ 	width: 100%;
+ 	height: 100%;
+ 	display: grid;
+ 	grid-template-rows: 40% auto;
+ 	align-items: center;
+ 	justify-items: center;
+	backface-visibility: hidden;
+	overflow: hidden;
+}
+.paper-front img{
+	width: 100%;
+	padding-top: 10%;
+}
+.paper-front h1{
+	text-align: center;
+	color: black;
+	font-family: var(--titulo);
+	font-size: 150%;
+	margin: 0 .2rem;
+}
+.paper-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	font-family: 'Concert One';
+	font-size: 1.8em;
+}
+.btn:hover{
+	border-color: #16a085;
+	color: #16a085;
+}
+section{
+	display: grid;
+	width: 100%;
+	align-items: center;
+	overflow: hidden;
+	min-height: 100vh;
+	/*max-height: 100%;*/
+	background-color: #bae6d5;
+}
+.temas{
+	display: grid;
+	grid-column: 2;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.paperback_front{
+	background-size: contain;
+}
+.past{
+	/*background-color: #1E5128;*/
+	background-image: url(../img/pastcover.jpeg);
+}
+.present{
+	/*background-color: #1c4587;*/
+	background-image: url(../img/presentcover.jpeg);
+}
+.future{
+	/*background-color: #E26A2C;*/
+	background-image: url(../img/futurecover.jpeg);
+}
+.countries{
+	/*background-color: #790252;*/
+	background-image: url(../img/countriescover.jpeg);
+}
+.countries{
+	font-size: 80%;
+}
+.hours{
+	/*background-color: #921224;*/
+	background-image: url(../img/hourscover.jpeg);
+}
+.family{
+	/*background-color: #2F8F9D;*/
+	background-image: url(../img/familycover.jpeg);
+}
+@keyframes intro {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+   transform: scale(1.0);
+  }
+}
+
+@media (max-width: 499px){
+      #inicio a,#activities a{
+				font-size: 4.3rem;
+			}
+			.book{
+				font-size: 2.3rem;
+			}
+			.back h2{
+				font-size: 300%;
+			}
+}
+@media (min-width: 500px) and (max-width: 899px){
+	#inicio a,#activities a{
+				font-size: 3rem;
+			}
+			.book{
+				font-size: 1.4rem;
+			}
+}
+
+/*.temas{
+				grid-template-rows: 3.57142857143rem 10.7142857143rem 3.57142857143rem 10.7142857143rem 12.5rem 40rem 1.42857142857rem 18.9285714286rem 13.2142857143rem 40rem 1.42857142857rem 5rem 14.2857142857rem 31.4285714286rem;
+				grid-template-columns: 1.78571428571rem 16.0714285714rem 12.5rem 5.35714285714rem 28.5714285714rem 5.35714285714rem 14.6428571429rem 13.9285714286rem 1.78571428571rem;
+			}*/
